@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StdMOneModule } from './std-mone/std-mone.module';
+import { StdMTwoModule } from './std-mtwo/std-mtwo.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    StdMOneModule,
+    StdMTwoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
